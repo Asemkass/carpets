@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#f5ede4">
+    <title>Premium Carpets</title>
+<!-- Ускорение (оставляем) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!-- НОВЫЕ ШРИФТЫ (Свежие, современные) -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<!-- ВАШ ФАЙЛ СТИЛЕЙ (Обязательно оставляем) -->
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Premium Carpets</div>
+        <div class="lang-switch">
+            <button onclick="setLang('kz')">KZ</button>
+            <button onclick="setLang('ru')">RU</button>
+            <button onclick="setLang('en')">EN</button>
+        </div>
+    </nav>
+
+   <header class="hero">
+    <div class="hero-content">
+        <h1 data-lang-ru="Профессиональная чистка ковров" 
+            data-lang-kz="Кілемдерді кәсіби тазалау" 
+            data-lang-en="Professional Carpet Cleaning">
+            Профессиональная чистка ковров
+        </h1>
+        <p data-lang-ru="Безопасная стирка на турецком оборудовании с вывозом и доставкой" 
+           data-lang-kz="Түрік жабдықтарымен қауіпсіз жуу, алып кету және жеткізу" 
+           data-lang-en="Safe washing using Turkish equipment with pickup and delivery">
+            Безопасная стирка на турецком оборудовании с вывозом и доставкой
+        </p>
+        <!-- Добавили кнопку призыва к действию -->
+        <a href="#contacts" class="cta-button" 
+           data-lang-ru="Заказать чистку" 
+           data-lang-kz="Тапсырыс беру" 
+           data-lang-en="Order Cleaning">Заказать чистку</a>
+    </div>
+</header>
+
+    <section id="about" class="section">
+        <h2 data-lang-ru="О нас" data-lang-kz="Біз туралы" data-lang-en="About us">О нас</h2>
+        <p class="about-text" 
+   data-lang-ru="Мы специализируемся на глубокой стирке ковров в цеху на профессиональном турецком оборудовании. Используем гипоаллергенные средства, безопасные для детей и домашних животных. Удаляем сложные пятна, неприятные запахи и пылевых клещей.
+
+Работаем быстро, аккуратно и с гарантией результата.
+Стоимость чистки — от 900 тг за м²." 
+   data-lang-kz="Біз кілемдерге бастапқы түрін қайтарамыз. Балалар мен жануарларға қауіпсіз гипоаллергенді сусабындарды қолданамыз. Дақтарды, иістерді және шаң кенелерін 99% кетіреміз." 
+   data-lang-en="We restore carpets to their original look using hypoallergenic shampoos safe for kids and pets. We remove 99% of stains, odors, and dust mites.">
+   Мы специализируемся на глубокой стирке ковров в цеху на профессиональном турецком оборудовании. Используем гипоаллергенные средства, безопасные для детей и домашних животных. Удаляем сложные пятна, неприятные запахи и пылевых клещей.
+
+Работаем быстро, аккуратно и с гарантией результата.
+Стоимость чистки — от 900 тг за м².
+</p>
+    </section>
+
+<section id="process" class="section">
+    <h2 data-lang-ru="Как мы работаем" data-lang-kz="Біз қалай жұмыс істейміз" data-lang-en="How we work">Как мы работаем</h2>
+    
+    <div class="process-container">
+        <!-- Шаг 1 -->
+        <div class="process-step">
+            <div class="step-icon-wrap">
+                <i class="fa-solid fa-desktop"></i> <!-- Иконка компьютера -->
+                <span class="step-number">1</span>
+            </div>
+            <h3 data-lang-ru="Заявка" data-lang-kz="Өтініш" data-lang-en="Request">Заявка</h3>
+            <p data-lang-ru="Вы оставляете заявку по телефону или через WhatsApp. Уточняем размер ковра, адрес и удобное время для выезда." 
+               data-lang-kz="Сіз сайтта немесе телефон арқылы өтінім қалдырасыз" 
+               data-lang-en="You leave a request on the site">Вы оставляете заявку по телефону или через WhatsApp. Уточняем размер ковра, адрес и удобное время для выезда.</p>
+        </div>
+
+        <!-- Шаг 2 -->
+        <div class="process-step">
+            <div class="step-icon-wrap">
+                <i class="fa-solid fa-people-carry-box"></i> <!-- Иконка грузчиков -->
+                <span class="step-number">2</span>
+            </div>
+            <h3 data-lang-ru="Вывоз" data-lang-kz="Алып кету" data-lang-en="Pick up">Вывоз</h3>
+            <p data-lang-ru="Мы приезжаем в удобное для вас время и забираем ковер на чистку." 
+               data-lang-kz="Біз келіп, кілемді жинап, алып кетеміз" 
+               data-lang-en="We come and pick up the carpet">Мы приезжаем в удобное для вас время и забираем ковер на чистку.</p>
+        </div>
+
+        <!-- Шаг 3 -->
+        <div class="process-step">
+            <div class="step-icon-wrap">
+                <i class="fa-solid fa-industry"></i> <!-- Иконка фабрики/цеха -->
+                <span class="step-number">3</span>
+            </div>
+            <h3 data-lang-ru="Чистка в цеху" data-lang-kz="Цехта тазалау" data-lang-en="Factory cleaning">Чистка в цеху</h3>
+            <p data-lang-ru="Проводим глубокую стирку на профессиональном оборудовании, отжим и сушку в специальной камере." 
+               data-lang-kz="Арнайы камерада жуу, сыгымдау және кептіру" 
+               data-lang-en="Washing and drying in a special chamber">Проводим глубокую стирку на профессиональном оборудовании, отжим и сушку в специальной камере.</p>
+        </div>
+
+        <!-- Шаг 4 -->
+        <div class="process-step">
+            <div class="step-icon-wrap">
+                <i class="fa-solid fa-truck-fast"></i> <!-- Иконка грузовика -->
+                <span class="step-number">4</span>
+            </div>
+            <h3 data-lang-ru="Доставка и оплата" data-lang-kz="Жеткізу және төлеу" data-lang-en="Delivery & Pay">Доставка и оплата</h3>
+            <p data-lang-ru="Привозим чистый и полностью высушенный ковер. Вы проверяете результат и оплачиваете." 
+               data-lang-kz="Таза кілемді әкелеміз, сіз тексеріп, төлейсіз" 
+               data-lang-en="We deliver, you check and pay">Привозим чистый и полностью высушенный ковер. Вы проверяете результат и оплачиваете.</p>
+        </div>
+    </div>
+</section>
+
+
+
+   <footer id="contacts" class="footer">
+    <div class="footer-container">
+        
+        <!-- Колонка 1: Логотип и описание -->
+        <div class="footer-col">
+            <div class="footer-logo">Premium Carpets</div>
+            <p class="footer-desc" 
+               data-lang-ru="Профессиональная стирка ковров с вывозом и доставкой. Гарантия чистоты и свежести." 
+               data-lang-kz="Кілемдерді алып кету және жеткізу арқылы кәсіби жуу. Тазалық пен балғындық кепілдігі." 
+               data-lang-en="Professional carpet cleaning with pickup and delivery. Guarantee of cleanliness.">
+               Профессиональная стирка ковров с вывозом и доставкой. Гарантия чистоты и свежести.
+            </p>
+        </div>
+
+        <!-- Колонка 2: Контакты -->
+        <div class="footer-col">
+            <h3 data-lang-ru="Контакты" data-lang-kz="Байланыс" data-lang-en="Contacts">Контакты</h3>
+            <ul class="contact-list">
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="tel:+77078054377">+7 (707) 805-43-77</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-clock"></i>
+                    <span data-lang-ru="Ежедневно: 09:00 - 21:00" data-lang-kz="Күнделікті: 09:00 - 21:00" data-lang-en="Daily: 09:00 - 21:00">Ежедневно: 09:00 - 21:00</span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Колонка 3: Кнопка WhatsApp -->
+        <div class="footer-col">
+            <h3 data-lang-ru="Связаться с нами" data-lang-kz="Бізбен байланысу" data-lang-en="Contact Us">Связаться с нами</h3>
+            <p class="footer-subtext" data-lang-ru="Задайте вопрос или закажите вывоз прямо сейчас" data-lang-kz="Сұрақ қойыңыз немесе қазір тапсырыс беріңіз" data-lang-en="Ask a question or order now">Задайте вопрос или закажите вывоз прямо сейчас</p>
+            
+            <!-- ВАЖНО: Замените номер телефона после wa.me/ на свой (без плюса, начиная с 7) -->
+            <a href="https://wa.me/77078054377" class="whatsapp-btn" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i> 
+                <span data-lang-ru="Написать в WhatsApp" data-lang-kz="WhatsApp-қа жазу" data-lang-en="Chat on WhatsApp">Написать в WhatsApp</span>
+            </a>
+            
+        </div>
+    </div>
+</footer>
+
+    <script>
+        function setLang(lang) {
+            document.querySelectorAll('[data-lang-ru]').forEach(el => {
+                const text = el.getAttribute('data-lang-' + lang);
+                if (text) el.textContent = text;
+            });
+        }
+    </script>
+</body>
+</html>
