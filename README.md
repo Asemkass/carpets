@@ -1,145 +1,164 @@
-🧼 Premium Carpets
 
-Modern responsive landing page for a professional carpet cleaning service.
-The website presents the company's services, explains the cleaning process, and allows customers to quickly contact the company via phone or WhatsApp.
+# 🧼 Premium Carpets
 
-The project is built as a simple, fast, and user-friendly website for a cleaning service business.
+<p align="center">
+  <img src="https://img.shields.io/badge/status-active-brightgreen" alt="Status">
+  <img src="https://img.shields.io/badge/responsive-yes-success" alt="Responsive">
+  <img src="https://img.shields.io/badge/languages-3-blue" alt="Languages">
+</p>
 
-📌 Project Overview
+<p align="center">
+  Modern responsive website for a professional carpet cleaning service<br>
+  <b>Carpet washing • Pickup & Delivery • Fast Service</b>
+</p>
 
-This website was created for a carpet cleaning company that provides:
+<br>
 
-professional carpet washing
+## 📋 Table of Contents
+- [About The Project](#-about-the-project)
+- [✨ Features](#-features)
+- [🌍 Languages](#-languages)
+- [🛠 Built With](#-built-with)
+- [📂 Project Structure](#-project-structure)
+- [🧩 Sections](#-sections)
+- [🚀 Getting Started](#-getting-started)
+- [📱 Responsive Design](#-responsive-design)
+- [📞 Contact](#-contact)
 
-pickup and delivery service
+<br>
 
-deep cleaning using industrial equipment
+## 📌 About The Project
 
-stain and odor removal
+**Premium Carpets** is a modern landing page created for a professional carpet cleaning service. The website provides customers with quick access to service information and seamless company contact.
 
-The website focuses on clear structure, simple navigation, and easy communication with customers.
+The project focuses on:
+- 🎯 Clean and intuitive design
+- 🧭 Simple navigation
+- ⚡ Fast loading performance
+- 💬 Easy customer communication
 
-✨ Features
+<br>
 
-✔ Responsive design (desktop, tablet, mobile)
-✔ Clean modern UI
-✔ Multilingual interface
-✔ Language switching without page reload
-✔ Clear service presentation
-✔ Step-by-step cleaning process section
-✔ Contact section with WhatsApp button
-✔ Modern footer with company information
+## ✨ Features
 
-🌍 Supported Languages
+| Feature | Description |
+|---------|-------------|
+| 📱 **Fully Responsive** | Perfect display on all devices |
+| 🌍 **Multilingual** | RU / KZ / EN language support |
+| 🧼 **Service Info** | Clear service and process description |
+| 📞 **Quick Contact** | Direct phone and WhatsApp buttons |
+| 🎨 **Modern UI** | Clean and professional design |
 
-The website supports three languages:
+<br>
 
-🇷🇺 Russian
+## 🌍 Languages
 
-🇰🇿 Kazakh
+The website supports three languages with seamless switching:
 
-🇬🇧 English
+- 🇷🇺 **Russian** - Русский
+- 🇰🇿 **Kazakh** - Қазақша  
+- 🇬🇧 **English** - English
 
-Language switching is implemented using HTML data attributes and JavaScript.
+> Language switching is implemented using JavaScript and HTML data attributes.
 
-🛠 Technologies Used
+<br>
 
-The project was built using the following technologies:
+## 🛠 Built With
 
-Technology	Purpose
-HTML5	Website structure
-CSS3	Styling and layout
-JavaScript	Language switching
-Google Fonts	Typography
-Font Awesome	Icons
-📂 Project Structure
-premium-carpets-website
+| Technology | Purpose |
+|------------|---------|
+| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) | Website structure |
+| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) | Styling and responsive layout |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) | Language switching functionality |
+| ![Google Fonts](https://img.shields.io/badge/Google_Fonts-4285F4?style=flat&logo=google-fonts&logoColor=white) | Typography |
+| ![Font Awesome](https://img.shields.io/badge/Font_Awesome-528DD7?style=flat&logo=font-awesome&logoColor=white) | Icons |
+
+<br>
+
+## 📂 Project Structure
+
+```
+Premium-Carpets/
 │
-├── index.html
-├── styles.css
-└── README.md
+├── 📄 index.html          # Main website page
+├── 🎨 styles.css           # Styling and layout
+└── 📝 README.md            # Project documentation
+```
 
-index.html – main webpage
-styles.css – all styles and responsive layout
-README.md – project documentation
+<br>
 
-🧩 Website Sections
+## 🧩 Sections
 
-The landing page contains several main sections.
+### 🏠 Navigation
+- Company logo and language switch buttons
 
-Navigation Bar
+### 🎯 Hero Section
+- Main screen with service description and call-to-action button
 
-Company logo
+### ℹ️ About Section
+- Company information and carpet cleaning services
 
-Language switch buttons
+### 🔄 Cleaning Process
+Step-by-step explanation:
+1. 📞 **Customer request**
+2. 🚚 **Carpet pickup**
+3. 🧼 **Professional washing**
+4. 💰 **Delivery and payment**
 
-Hero Section
+### 📞 Contacts
+- Direct phone contact
+- WhatsApp integration for instant messaging
 
-Main service description
+<br>
 
-Call-to-action button to order cleaning
+## 🚀 Getting Started
 
-About Section
+### Prerequisites
+- Any modern web browser
+- No installation required!
 
-Information about the company and the benefits of the service.
+### Installation
 
-Cleaning Process
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/premium-carpets.git
+   ```
 
-Step-by-step explanation of how the service works:
+2. **Open the project**
+   ```bash
+   cd premium-carpets
+   ```
 
-1️⃣ Customer request
-2️⃣ Carpet pickup
-3️⃣ Professional cleaning in workshop
-4️⃣ Delivery and payment
+3. **Run the website**
+   - Open `index.html` in your browser
+   - Or use Live Server in VS Code
 
-Contacts
+That's it! 🎉
 
-Customers can quickly contact the company using:
+<br>
 
-phone number
+## 📱 Responsive Design
 
-WhatsApp button
+The website is fully optimized for:
 
-working hours
+| Device | Optimization |
+|--------|--------------|
+| 💻 **Desktop** | Full layout with optimal spacing |
+| 📱 **Mobile** | Collapsible sections, touch-friendly |
+| 📲 **Tablet** | Adaptive layout for medium screens |
 
-Footer
+<br>
 
-Contains additional company information and contact details.
+## 📞 Contact
 
-🚀 Installation
+### Phone
+📞 **+7 (707) 805-43-77**
 
-Clone the repository:
+### Working Hours
+🕒 **Daily: 08:00 – 23:00**
 
-git clone https://github.com/yourusername/your-repository-name.git
+### Social & Messaging
+💬 **WhatsApp** - Direct chat button on the website
 
-Open the project folder.
 
-Run the website by opening:
 
-index.html
-
-in any browser.
-
-No additional installation is required.
-
-📱 Responsive Design
-
-The website is optimized for:
-
-💻 Desktop
-
-📱 Mobile
-
-📲 Tablet
-
-CSS media queries ensure proper layout across different screen sizes.
-
-📞 Contact
-
-Phone
-+7 (707) 805-43-77
-
-Working Hours
-Daily: 08:00 – 23:00
-
-Customers can also contact the company directly via WhatsApp from the website.
