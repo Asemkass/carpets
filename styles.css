@@ -471,3 +471,120 @@ h1, h2, h3, .logo {
     .gallery-grid { grid-template-columns: 1fr; }
     .navbar { flex-wrap: wrap; gap: 1rem; justify-content: center; }
 }
+/* About Section Styling */
+.about-text-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/* Price Block Styling */
+.price-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.price-card,
+.min-order-card {
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    border-radius: 16px;
+    padding: 1.5rem;
+    flex: 1;
+    min-width: 220px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.price-card:hover,
+.min-order-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.price-icon,
+.min-icon {
+    font-size: 2.5rem;
+    background: #f0f4f8;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.price-info {
+    flex: 1;
+}
+
+.price-main {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #27ae60;
+    line-height: 1.2;
+}
+
+.price-label {
+    font-size: 0.85rem;
+    color: #7f8c8d;
+    margin-top: 0.25rem;
+}
+
+.min-info {
+    flex: 1;
+}
+
+.min-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #e67e22;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.25rem;
+}
+
+.min-amount {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #e67e22;
+    line-height: 1.2;
+}
+
+.min-desc {
+    font-size: 0.8rem;
+    color: #7f8c8d;
+    margin-top: 0.25rem;
+}
+
+/* Responsive Design */
+@media (max-width: 550px) {
+    .price-card,
+    .min-order-card {
+        min-width: 100%;
+        justify-content: center;
+    }
+    
+    .price-main,
+    .min-amount {
+        font-size: 1.5rem;
+    }
+    
+    .about-text {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+}
